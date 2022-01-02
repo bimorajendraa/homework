@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+   display: inline;
+}
+
+.content{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.navigation-right{
+    float: right;
+}
+
+.navigation-right li a{
+    color: #1263BD;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.navigation-bottom{
+    padding: 30px 15px 75px 0px;
+    border-bottom-style: solid;
+    border-width: 3.5px;
+}
+
+.navigation-left li a{
+    color: black;
+    margin-top: 10px;
+    margin-right: 30px;
+    letter-spacing: -0.44px;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding-top: 20px;
+}
+
+.article{
+    width: 95%;
+}
+
+.image img{
+    width: 566px;
+    height: 378px;
+}
+
+.art-headings{
+    max-width: 500px;
+}
+
+.art-headings a{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.art-subheadings{
+    padding-top: 22px;
+    max-width: 500px;
+}
+
+.art-subheadings a{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.art-bottomheadings{
+    padding-top: 22px;
+}
+
+.art-bottomheadings a{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.art-bottomdate a{
+    color: #000000;
+    opacity: 47.0%;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 75px;  
+}
+
+.block img{
+    width: 260px;
+    height: 170px;
+}
+
+.block a{
+    text-align: left;
+    max-width: 300px;
+}
+
+.inside{
+    max-width: 250px;
+}
+
+.gendre a{
+    color: #00AFD7;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.headings{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.headings a{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: -0.44px;
+}
+
+.bodies{
+    padding-bottom: 20px;
+}
+
+.bodies a{
+    font-size: 18px;
+}
+
+.bottoms a{
+    font-size: 18px;
+}
+
+.trullybottoms a{
+    color: #000000;
+    opacity: 47.0%;
+    font-size: 18px;
+}
+
+.box{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 21px;
+    width: 1200px;
+    border-width: 3px;
+    color: black;
+    border-style: solid;
+}
+
+.insbox-left{
+    margin: 30px;
+}
+
+.insbox-left a{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: -0.44px;
+}
