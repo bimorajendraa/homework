@@ -13,6 +13,7 @@ payload = {'q': location, 'appid': key}
 
 req = requests.get(url, payload)
 
+
 if req.status_code == 200:
     result = json.loads(req.content)
     weather = result['weather'][0]['description']
